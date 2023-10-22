@@ -1,0 +1,185 @@
+body{
+    background-color: #F3F8FF;
+    font-family: 'Poppins', sans-serif;
+}
+/* body,html{
+    width: 100%;
+    height: 100%;
+} */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    font-size: 16px;
+    font-weight: 900;
+}
+.header button{
+    padding: 15px;
+    color: white;
+    background-color: #570DF8;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+.center h1{
+    font-size: 3.5rem;
+}
+.center p{
+    margin-top: -25px ;
+    font-size: 1.2rem;
+}
+.center button{
+    padding: 15px;
+    color: white;
+    background-color: #570DF8;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.search-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.search-Box label{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 25px;
+}
+.search-Box input{
+    width: 270px;
+    height: 30px;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+.search-Box button{
+    padding: 15px;
+    color: white;
+    background-color: #570DF8;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+footer{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.fa-hashtag{
+    font-size: 60px;
+}
+.icons{
+    font-size: 20px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 1rem;
+}
+#showALLBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#showALLBtn button{
+    padding: 15px;
+    color: white;
+    background-color: #570DF8;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#phone-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 2rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.card{
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 3px 2px #d7d1d1;
+    border-radius: 5px;
+}
+.card button{
+    padding: 15px;
+    color: white;
+    background-color: #570DF8;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#loading{
+    visibility: hidden;
+}
+#my_modal{
+    border: none;
+    outline: none;
+}
+#my_modal form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#my_modal form button{
+    padding: 15px;
+    color: white;
+    background-color: #570DF8;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+@media (max-width:950px) {
+    #phone-container{
+        width: 100%;
+        padding: 2px;
+    }
+    .card{
+        width: 100%;
+        background-color: white;
+        padding: 5px;
+        box-shadow: 3px 2px #d7d1d1;
+        border-radius: 5px;
+    }
+}

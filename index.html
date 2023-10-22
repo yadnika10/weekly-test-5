@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@700&family=Montserrat:wght@400;600&family=Open+Sans:wght@500;600&family=Orbitron:wght@500&family=Poppins&family=Roboto&family=Roboto+Condensed&family=Roboto+Serif:opsz@8..144&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Hot Gadgets</h2>
+            <button>Sign up</button>
+        </div>
+        <div class="center">
+            <h1>Apple Iphone 13 Pro Max</h1>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority
+               <br>have suffered alteration in some form, by injected humou.
+            </p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="img-box">
+            <img src="https://tasmim-tahsin.github.io/PhoneHuntingAPI/images/pngwing%202.png">
+            <img src="https://tasmim-tahsin.github.io/PhoneHuntingAPI/images/pngwing%201.png">
+            <img src="https://tasmim-tahsin.github.io/PhoneHuntingAPI/images/pngwing%202.png">
+        </div>
+        <div class="search-Box">
+            <label for="search">Search Your Phone</label>
+            <div>
+                <input type="text" id="searchField" placeholder="e.g. oppo,samsung,iphone">
+                <button onclick="Search()">Search</button>
+            </div>
+        </div>
+        <!-- Phone Card -->
+        <section>
+            <div id="loading">
+                <h1>Searching your phone..</h1>
+                <span></span>
+            </div>
+            <div id="phone-container"></div>
+        </section>
+
+        <div id="showALLBtn">
+            <button onclick="showBtn()">Show All</button>
+        </div>
+
+        <!-- Details -->
+        <section>
+            <dialog id="my_modal">
+                <form method="dialog">
+                    <div id="imgContainer"></div>
+                    <h3 id="detailsPhoneName"></h3>
+                    <h3 id="detailsBrand"></h3>
+                    <p id="detailsSpec"></p>
+                    <p id="releaseDate"></p>
+
+                    <div>
+                        <button>Close</button>
+                    </div>
+                </form>
+            </dialog>
+        </section>
+    </div>
+    <footer>
+        <i class="fa-solid fa-hashtag fa-flip-vertical"></i>
+        <h2>Hot Gadgets BD
+            <br>Providing reliable tech items since 1992
+        </h2>
+        <p>Copyright © 2023 - All right reserved</p>
+        <div class="icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
